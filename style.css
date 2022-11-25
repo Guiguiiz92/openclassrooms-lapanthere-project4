@@ -56,6 +56,10 @@ a:hover {
     padding: 20px 50px;
 }
 
+.bloc-sm p {
+    font-size: 25px;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -442,7 +446,13 @@ nav .caret {
     float: right;
 }
 
+.text-center {
+    font-size: 18px;
+    color: #000000;
+}
+
 .mg-md {
+    font-size: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -719,7 +729,7 @@ h2 {
     line-height: 1.4em;
 }
 
-h3 {
+h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -781,7 +791,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background: #9b3f15;
 }
 
 .tc-white {
@@ -789,7 +799,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #9b3f15;
     color: #FFFFFF !important;
 }
 
@@ -1088,12 +1098,7 @@ h4 {
 }
 
 
-.text-center {
-    font-size: large;
-    color: #000000;
-}
-
-h2 {
+h3 {
     color: white;
     font-size: large;
 }

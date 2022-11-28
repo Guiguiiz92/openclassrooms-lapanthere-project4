@@ -1102,3 +1102,12 @@ h3 {
     color: white;
     font-size: large;
 }
+
+label {
+    color: #000000;
+}
+
+.col-sm-6 p {
+    font-size: 17px;
+    color: #000000;
+}

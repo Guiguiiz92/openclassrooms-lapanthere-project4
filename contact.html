@@ -15,7 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 
 
-	<script src="js/jquery-2.1.0.js"></script>
+	<script src="js/jquery-2.1.0.js" defer></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/blocs.min.js"></script>
 	<script src="js/jqBootstrapValidation.min.js"></script>
@@ -39,8 +39,8 @@
 				<div class="container bloc-sm">
 					<nav class="navbar row">
 						<div class="navbar-header">
-							<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg"
-									alt="atlanta web design logo" height="40" /></a>
+							<a aria-label="Logo de la panthere retour accueil" class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg"
+									alt="atlanta web design logo" height="40"></a>
 							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
 								data-toggle="collapse" data-target=".navbar-1">
 								<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
@@ -50,12 +50,7 @@
 						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 							<ul class="site-navigation nav navbar-nav">
 								<li>
-									<a href="index.html">Accueil</a>
-								</li>
-								<li>
-								</li>
-								<li>
-									<a href="contact.html">Contact</a>
+									<a aria-label="Accueil" href="index.html">Accueil</a>
 								</li>
 							</ul>
 						</div>
@@ -92,25 +87,25 @@
 					<form id="contact" novalidate>
 						
 						<div class="form-group">
-							<label for="name">
+							<label for="name" aria-label="Nom">
 								Nom
 							</label>
-							<input id="name" class="form-control" required />
+							<input id="name" class="form-control" required>
 						</div>
 						<div class="form-group">
-							<label for="email">
+							<label for="email" aria-label="email">
 								Adresse email
 							</label>
-							<input id="email" class="form-control" type="email" required />
+							<input id="email" class="form-control" type="email" required>
 						</div>
 						<div class="form-group">
-							<label for="brief">
+							<label for="brief" aria-label="Comment nous avez vous connu ?">
 								Comment nous avez-vous connu ?
 							</label>
-							<input id="brief" class="form-control" type="email" required />
+							<input id="brief" class="form-control" type="email" required>
 						</div>
 						<div class="form-group">
-							<label for="message">
+							<label for="message" aria-label="Brief de votre projet (Ajoutez autant de détails que nécessaire)">
 								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 							</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 						</div>
@@ -130,7 +125,7 @@
 	</div>
 	<!-- bloc-7 END -->
 	<!-- ScrollToTop Button -->
-	<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+	<a href="#" aria-label="retour haut de page" alt="retour haut de page" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
 			class="fa fa-chevron-up"></span></a>
 	<!-- ScrollToTop Button END-->
 	<!-- Footer - bloc-8 -->
@@ -145,25 +140,25 @@
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://twitter.com/home" title="Twitter"><span
+									<a aria-label="Twitter" class="social" href="https://twitter.com/home" title="Twitter"><span
 											class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://fr-fr.facebook.com/" title="Facebook"><span
+									<a aria-label="Facebook" class="social" href="https://fr-fr.facebook.com/" title="Facebook"><span
 											class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://dribbble.com/" title="Dribbble"><span
+									<a aria-label="Dribbble" class="social" href="https://dribbble.com/" title="Dribbble"><span
 											class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://www.instagram.com/?hl=fr" title="Instagram"><span
+									<a aria-label="Instagram" class="social" href="https://www.instagram.com/?hl=fr" title="Instagram"><span
 											class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
@@ -173,11 +168,8 @@
 			</div>
 		</div>
 		<!-- Footer - bloc-8 END -->
-
-		
 	</footer>
 	<!-- Principal conteneur END -->
-
 
 </body>
 
